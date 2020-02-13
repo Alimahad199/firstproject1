@@ -24,7 +24,7 @@ public class ItemsController implements CrudController<Items> {
 		this.ItemsService = itemsService;
 		
 	}
-	String getInput() {
+	public String getInput() {
 		
 		return Utils.getInput();	
 	}
@@ -53,7 +53,7 @@ public class ItemsController implements CrudController<Items> {
 	 * Creates a customer by taking in user input
 	 */
 	
-	@Override
+	
 	public Items create() {
 		
 		
@@ -73,7 +73,7 @@ public class ItemsController implements CrudController<Items> {
 		return items;
 	}
 	
-	@Override
+	
 	
 	public Items update() {
 		

@@ -28,8 +28,8 @@ package com.qa.ims.persistence.domain;
 		public long getId() {
 			return id;
 		}
-		public void setId(int id) {
-			this.id = id;
+		public void setId(long l) {
+			this.id = l;
 		}
 		public String getItem_name() {
 			return item_name;
@@ -47,4 +47,19 @@ package com.qa.ims.persistence.domain;
 		public String toString() {
 			return "id:" + id + " item_name:" + item_name + " item_value:" + item_value;
 		}
+
+		public static void add(Items items) {
+			
+		}
+
+		public void setId(Object object) {
+			// TODO Auto-generated method stub
+			
+		}	
+		
+		
+		
+		
+		
+		
 	}
